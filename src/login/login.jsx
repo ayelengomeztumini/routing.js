@@ -3,11 +3,11 @@ import "./login.css";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleUsernameChange = (event) => {
-    setUsername(event.target.value);
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
   };
 
   const handlePasswordChange = (event) => {
@@ -16,7 +16,7 @@ const LoginPage = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log('Nombre de usuario:', username);
+    console.log('Email:', email);
     console.log('Contraseña:', password);
   };
 
@@ -35,12 +35,12 @@ const LoginPage = () => {
       <div className="formulario">
 
         <div className="form-group">
-          <label htmlFor="username">Nombre de usuario</label>
+          <label htmlFor="email">Email</label>
           <input
-            type="text"
-            id="username"
-            value={username}
-            onChange={handleUsernameChange}
+            type="email"
+            id="email"
+            value={email}
+            onChange={handleEmailChange}
           />
         </div>
         <div className="form-group">
