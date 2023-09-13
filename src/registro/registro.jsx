@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./registro.css";
 import { Link } from "react-router-dom";
+import Footer from '../footer/footer';
 
 function RegistroFormulario() {
   const [nombre, setNombre] = useState('');
@@ -68,6 +69,7 @@ function RegistroFormulario() {
       </div>
       <button type="submit">Registrarse</button>
     </form>
+    <Footer></Footer>
     </div>
   );
 }

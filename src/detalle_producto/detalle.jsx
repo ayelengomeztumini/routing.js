@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './detalle.css';
 import campera2 from './campera2.JPG'
 import { Link } from "react-router-dom";
+import Footer from '../footer/footer';
 
 const ProductDetailPage = () => {
   const [isPurchased, setIsPurchased] = useState(false);
@@ -41,6 +42,7 @@ const ProductDetailPage = () => {
       </main>
 
       </div>
+    <Footer></Footer>
     </div>
   );
 };

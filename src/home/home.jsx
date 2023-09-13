@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
 import Table from 'react-bootstrap/Table';
+import Footer from "../footer/footer";
 
 
 
@@ -98,6 +99,7 @@ function Home(){
                 </Table>
 
             </div>
+            <Footer></Footer>
         </div>
     )
 }

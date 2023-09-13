@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./login.css";
 import { Link } from "react-router-dom";
+import Footer from '../footer/footer';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -57,6 +58,7 @@ const LoginPage = () => {
 
         <button type="submit">Iniciar sesión</button>
       </form>
+    <Footer></Footer>
     </div>
   );
 };
