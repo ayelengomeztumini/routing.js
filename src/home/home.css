@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+}
+
+.menu_superior{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-size: large;
+    color: white;
+}
+.home{
+    padding-right: 1rem;
+}
+.productos{
+    padding-right: 1rem;
+}
+.login{
+    padding-right: 1rem;
+}
+.registro{
+    padding-right: 1rem;
+}
+.table{
+    border-collapse: collapse;
+    display: inline;
+    padding-top: 3rem;
+}
+th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+    text-align: center;
+    padding : .5em ; 
+}
+.container table tbody{
+    text-align: center;
+}
+thead, tbody{
+    background:#d6edff ; 
+}
+.titulo h2{
+    color: white;
+}

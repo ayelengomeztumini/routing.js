@@ -1,0 +1,47 @@
+#form{
+    display: inline-block;
+}
+.login-page {
+    text-align: center;
+}
+.login-page h2{
+    color: white;
+}
+.formulario {
+    background-color: #d6edff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+  
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    display: flex;
+}
+  
+.form-group input {
+    border-radius: 4px; 
+    display: block;
+    border: 2px solid #f0f0f0; 
+    font-family: inherit; 
+    width: 90%;
+    font-size: 14px; 
+    padding: 10px;
+}
+.login-page button {
+    background-color: #005ca4; 
+    border: 2px solid #005ca4; 
+    border-radius: 4px; 
+    color: white; 
+    display: block; 
+    font-family: inherit; 
+    font-style: bold;
+    padding: 10px; 
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    width: 40%;
+}
