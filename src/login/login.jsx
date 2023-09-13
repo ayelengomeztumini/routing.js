@@ -24,7 +24,7 @@ const LoginPage = () => {
   return (
     <div className="login-page">
         <div className="menu_superior">   
-                <Link style={{ textDecoration: 'none', color: 'white' }} className="home" to="/home">Home</Link>
+                <Link style={{ textDecoration: 'none', color: 'white' }} className="home" to="/">Home</Link>
                 <Link style={{ textDecoration: 'none', color: 'white' }} className="productos" to="/detalle_producto">Productos</Link>
                 <Link style={{ textDecoration: 'none', color: 'white' }} className="login" to="/login">Login</Link>
                 <Link style={{ textDecoration: 'none', color: 'white' }} className="registro" to="/registro">Registro</Link>
